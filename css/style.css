@@ -1,0 +1,23 @@
+.logoImg{
+width: 70px;
+height: 70px;
+}
+.logoTxt{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 10px;
+    font-weight:bolder;
+}
+.myTxt{
+    height: 50px;
+}
+.myTitle{
+    font-weight: bold;
+}
+.moviePoster{
+    width: 70%;
+    height: 70%;
+}
+.myRow{
+    margin-top: 20px;
+}
