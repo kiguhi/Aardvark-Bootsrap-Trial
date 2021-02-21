@@ -15,9 +15,16 @@ height: 70px;
     font-weight: bold;
 }
 .moviePoster{
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
 }
 .myRow{
     margin-top: 20px;
+}
+.labelStyle{
+    font-weight: bold;
+    padding: 10px;
+}
+.btnSize{
+    width: 100%;
 }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aardvark</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+
+   <script src="../bootstrap/js/bootstrap.min.js"></script>
+   <script src=".../bootstrap/js/bootstrap.js"></script>
+
+
+</head>
+<body>
+
+  <div class="container">
+    <!-- Control the column width, and how they should appear on different devices -->
+    <div class="row">
+      <div class="col-sm">
+        <img src="../images/logo.webp" class="logoImg"><br>
+        <p class="../logoTxt">movieShop</p>
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-sm">
+        <p class="bg-info text-white myTxt" >Reeland Real: Buy one get Two Free</p>
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="col-sm">
+        <a href="../index.html"><button type="button" class="btn btn-primary">Back To HomePage</button></a>
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-sm ">
+        <form action="">
+            <div class="row">
+              <div class="col-sm">
+                <label for="movieName" class="labelStyle">Movie Name</label>
+                <input type="text" class="form-control" id="movieName" placeholder="Movie Name" name="MovieName">
+              </div>
+              <div class="col-sm">
+                <label for="leadActor" class="labelStyle">Lead Actor</label>
+                <input type="text" class="form-control" id="leadActor" placeholder="Lead Actor " name="leadActor">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                  <label for="Duration" class="labelStyle">Duration</label>
+                  <input type="text" class="form-control" id="Duration" placeholder="Timein hours" name="Duration">
+                </div>
+                <div class="col-sm">
+                  <label for="moviePoster" class="labelStyle">MoviePoster</label>
+                  <input type="file" class="form-control" id="Poster" name="Poster">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <label for="Rating" class="labelStyle">Rating</label>
+                  <select class="form-control" id="sel1">
+                    <option>G</option>
+                    <option>PG</option>
+                    <option>R</option>
+                    <option>X</option>
+                  </select>
+                </div>
+                <div class="col-sm">
+                    <label for="Genre" class="labelStyle">Genre</label>
+                    <select class="form-control" id="sel1">
+                      <option>Action</option>
+                      <option>Animation</option>
+                      <option>Comedy</option>
+                      <option>Drama</option>
+                      <option>Documentary</option>
+                      <option>Horror</option>
+                      <option>Scifi</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <button type="submit" class="btn btn-primary mt-3 btnSize">Submit Movie</button>
+                    </div>
+                    <div class="col-sm-6">
+                        <button type="reset" class="btn btn-danger mt-3 btnSize">Reset</button>
+                    </div>
+                </div>
+          </form>
+      </div>
+    </div>
+</div>
+</body>
+</html>
